@@ -4,23 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Portfolio || Shailesh</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!--* -------------------- Header-----------------  -->
-    <header class="header">
-      <div class="head-name">Shailesh Gontewar</div>
-      <div class="menu">
-        <a href=".">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
+    <header class="header d-flex justify-content-between position-sticky">
+      <div class="head-name" >Shailesh Gontewar</div>
+      <div class="menu d-flex justify-content-between align-items-center " >
+        <a class="text-decoration-none" href="." >Home</a>
+        <a class="text-decoration-none" href="#about">About</a>
+        <a class="text-decoration-none" href="#portfolio">Portfolio</a>
+        <a class="text-decoration-none" href="#resume">Resume</a>
+        <a class="text-decoration-none" href="#contact">Contact</a>
       </div>
     </header>
 
@@ -46,8 +55,8 @@
     </div>
     <!--* -------------------- Banner -----------------  -->
     <div class="banner">
-      <div class="inner-banner">
-        <div class="banner-text box">
+      <div class="inner-banner d-flex flex-wrap w-auto">
+        <div class="banner-text box d-flex fle">
           <p class="banner-name">Hi, I am Shailesh Gontewar</p>
           <p class="banner-developer">A Full-Stack Developer</p>
           <p class="banner-description">
@@ -55,10 +64,10 @@
           </p>
           <div class="button">
             <button class="hireme-btn">
-              <a href="#contact" alt=""> Hire Me </a>
+              <a class="text-decoration-none" href="#contact" alt=""> Hire Me </a>
             </button>
             <button class="getresume-btn">
-              <a href="" target="_blank"> Get Resume </a>
+              <a class="text-decoration-none" href="" target="_blank"> Get Resume </a>
             </button>
           </div>
         </div>
@@ -133,7 +142,7 @@
           <hr />
           <div class="education-box">
             <p class="circle c-1">&#8226;</p>
-            <span>2019 - 2022</span> 
+            <span>2019 - 2022</span>
             <p class="education-details">
               VMV College RTMNU University <i></i>
             </p>
@@ -141,14 +150,14 @@
           </div>
           <div class="education-box">
             <p class="circle c-2">&#8226;</p>
-            <span>2015 - 2018</span> 
+            <span>2015 - 2018</span>
             <p class="education-details">
               Shri M. Mohata Science College, Nagpur <i></i>
             </p>
             <p class="marks">Bachelor of Science(B.Sc)</p>
           </div>
           <div class="education-box">
-            <span>2013 - 2015</span> 
+            <span>2013 - 2015</span>
             <p class="circle c-3">&#8226;</p>
             <p class="education-details">Shri Niketan Junior College,Nagpur</p>
             <p class="marks">12th</p>
@@ -208,7 +217,7 @@
 
     <!--* -------------------- footer -----------------  -->
     <div class="footer">
-      <p>&copy; 2022 developed by Shailesh Gontewar</p>
+      <p>&copy; 2023 developed by Shailesh Gontewar</p>
     </div>
     <script src="script.js"></script>
   </body>

@@ -36,12 +36,9 @@ html {
 .header {
   width: 100vw;
   height: 4.5rem;
-  display: flex;
   background-color: var(--primary-color);
-  position: sticky;
   top: 0px;
   z-index: 5;
-  justify-content: space-between;
 }
 
 .head-name {
@@ -50,14 +47,6 @@ html {
   font-size: 2rem;
   color: #105652;
 }
-
-.menu {
-  display: flex;
-  /* margin: auto 10%; */
-  align-items: center;
-  justify-content: space-between;
-}
-
 .menu a {
   font-size: 1.2rem;
   font-weight: 500;
@@ -152,9 +141,8 @@ html {
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 100% 40%;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+ 
+ 
 }
 .inner-banner .box {
   flex: 1 1 50%;
@@ -162,7 +150,6 @@ html {
 .banner-text {
   padding: 3rem;
   z-index: 2;
-  display: flex;
   flex-direction: column;
 }
 .banner-text p {
@@ -407,8 +394,8 @@ html {
 }
 
 .c-1 ,.c-2 ,.c-3{
-    top: -2rem;
-    left: -0.8rem;
+    top: -2.6rem;
+    left: -0.7rem;
 }
 .resume-right {
   background-color: white;
@@ -447,7 +434,7 @@ html {
 }
 .contact-left {
   padding: 2rem;
-  background-color: var(--primary-color);
+  background-color: #fff;
   /* box-shadow: var(--primary-shadow); */
 }
 
